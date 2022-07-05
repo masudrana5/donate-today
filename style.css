@@ -83,3 +83,22 @@ section.donate-day p {
    border: 1px solid tomato;
    color: tomato;
 }
+.input-amount{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 150px;
+}
+.amount-hold{
+   width: 800px;
+   margin: 30px auto;
+}
+input[type="text"] {
+   width: 800px;
+   text-align: center;
+   padding: 9px;
+   border-bottom: 3px solid #ddd !important;
+   border: none;
+   font-size: 18px;
+}
