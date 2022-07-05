@@ -1,0 +1,85 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+  
+   font-family: 'Poppins', sans-serif;
+}
+h1{
+   font-size: 50px;
+}
+h2{
+   font-size: 40px;
+   font-weight: 600;
+}
+h3{
+   font-size: 25px;
+}
+.top-container{
+   background-image: url(images/donation5.jpg);
+   background-repeat: no-repeat;
+   height: 600px;
+   background-size: cover;
+   margin-bottom: 80px;
+}
+.top-banner{
+   color: #fff;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgba(0,0,0,0.7);
+
+}
+.top-banner h1{
+   width: 615px;
+   text-align: center;
+   font-weight: 600;
+   margin-bottom: 35px;
+}
+.top-banner p{
+   width: 615px;
+   text-align: center;
+   font-size: 19px;
+   margin-bottom: 30px;
+}
+a.donate-button {
+   text-decoration: none;
+   padding: 10px 20px;
+   background-color: tomato;
+   border: none;
+   border-radius: 5px;
+   color: #fff;
+}
+section.donate-day {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+section.donate-day h2{
+   margin-bottom: 15px;
+}
+section.donate-day p {
+   margin-bottom: 40px;
+}
+.donate-amount{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+   margin-bottom: 50px;
+}
+.money{
+   padding: 25px 20px;
+   background-color: rgb(236, 232, 232);
+   margin: 10px;
+   border-radius: 5px;
+}
+.active-money{
+   border: 1px solid tomato;
+   color: tomato;
+}
