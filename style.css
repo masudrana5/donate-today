@@ -196,9 +196,9 @@ section.donate-day p {
 .email-section {
    width: 800px;
    height: 200px;
-   background-color: #d6b5b3;
+   background-color: #b0a8a8;
    margin: 0 auto;
-
+   border-radius: 10px;
 }
 
 
