@@ -63,10 +63,11 @@ h4 {
 a.donate-button {
    text-decoration: none;
    padding: 10px 20px;
-   background-color: tomato;
+   background-image: linear-gradient(66deg, tomato,orange);
    border: none;
    border-radius: 5px;
-   color: #fff;
+   color: #202124;
+   font-weight: bold;
 }
 
 section.donate-day {
@@ -196,7 +197,7 @@ section.donate-day p {
 .email-section {
    width: 800px;
    height: 200px;
-   background-color: #b0a8a8;
+   background-color: #327aa16b;
    margin: 0 auto;
    border-radius: 10px;
 }
