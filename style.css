@@ -122,7 +122,7 @@ section.donate-day p {
    margin: 30px auto;
 }
 
-input[type="text"] {
+#amount{
    width: 800px;
    text-align: center;
    padding: 9px;
@@ -232,9 +232,27 @@ footer{
    color: #fff;
    padding: 40px;
    text-align: center;
+   margin-top: 100px;
 }
 .orange-color{
    color: orange;
 
+}
+.contact-us {
+   display: flex;
+}
+.half-width {
+   width: 635px;
+}
+.half-width h1 {
+   margin-bottom: 20px;
+}
+.contact {
+   width: 600px;
+   padding: 10px;
+   font-size: 15px;
+   margin-bottom: 35px;
+   border-radius: 5px;
+   border: 3px solid #ddd;
 }
 
